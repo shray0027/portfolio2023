@@ -32,7 +32,7 @@ const data = [
 const Home: React.FC = () => {
   return (
     <div className=" w-screen h-screen flex items-center justify-center">
-      <Carousel items={data} />
+      <Carousel items={data} slideDuration={5000} />
     </div>
   );
 };

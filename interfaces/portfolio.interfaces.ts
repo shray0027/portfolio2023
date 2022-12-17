@@ -4,3 +4,8 @@ export interface ICarouselItem {
   body?: string;
   imageUrl: string;
 }
+
+export interface Language {
+  name: string;
+  version?: string;
+}
